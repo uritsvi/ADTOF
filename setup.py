@@ -19,7 +19,7 @@ setuptools.setup(
         "Cython",
         "madmom", # Changd from old dependenct witch does not work
         "tensorflow>=2.13.0",
-        "numpy>=1.23.5",
+        "numpy==1.23.5",
         "matplotlib>=3.8.1",
         "pandas>=1.2.4",
         "mir_eval>=0.6",
