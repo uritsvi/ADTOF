@@ -14,12 +14,12 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     package_data={"adtof": ["models/*"]},
     install_requires=[
+        "numpy==1.23.5",
         "librosa>=0.8.0",
         "tapcorrect @ git+https://github.com/MZehren/tapcorrect#subdirectory=python&egg=tapcorrect",
         "Cython",
         "madmom", # Changd from old dependenct witch does not work
         "tensorflow>=2.13.0",
-        "numpy==1.23.5",
         "matplotlib>=3.8.1",
         "pandas>=1.2.4",
         "mir_eval>=0.6",
