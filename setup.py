@@ -13,8 +13,10 @@ setuptools.setup(
     url="",
     packages=setuptools.find_packages(),
     package_data={"adtof": ["models/*"]},
+        setup_requires=[
+        "numpy==1.23.5"  # This library will be installed first
+    ],
     install_requires=[
-        "numpy==1.23.5",
         "librosa>=0.8.0",
         "tapcorrect @ git+https://github.com/MZehren/tapcorrect#subdirectory=python&egg=tapcorrect",
         "Cython",
