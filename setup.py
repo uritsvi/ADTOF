@@ -14,11 +14,9 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     package_data={"adtof": ["models/*"]},
         setup_requires=[
-        "numpy==1.23.5"  # This library will be installed first
     ],
     install_requires=[
         "librosa>=0.8.0",
-        "Cython",
         "tensorflow>=2.13.0",
         "matplotlib>=3.8.1",
         "pandas>=1.2.4",
