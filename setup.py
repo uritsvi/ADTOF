@@ -18,9 +18,7 @@ setuptools.setup(
     ],
     install_requires=[
         "librosa>=0.8.0",
-        "tapcorrect @ git+https://github.com/MZehren/tapcorrect#subdirectory=python&egg=tapcorrect",
         "Cython",
-        "madmom", # Changd from old dependenct witch does not work
         "tensorflow>=2.13.0",
         "matplotlib>=3.8.1",
         "pandas>=1.2.4",
