@@ -15,7 +15,7 @@ setuptools.setup(
     package_data={"adtof": ["models/*"]},
     install_requires=[
         
-        "numpy==1.26.4",
+        "numpy==1.23.0",
         "librosa>=0.8.0",
         "tensorflow>=2.13.0",
         "matplotlib>=3.8.1",
