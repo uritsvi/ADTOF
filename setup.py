@@ -14,7 +14,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     package_data={"adtof": ["models/*"]},
     install_requires=[
-        
+        "cython==3.0.0",
         "numpy==1.23.0",
         "librosa>=0.8.0",
         "tensorflow>=2.13.0",
